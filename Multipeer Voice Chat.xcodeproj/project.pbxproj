@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		754855461DAB7CE5004B9BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754855451DAB7CE5004B9BD3 /* AppDelegate.swift */; };
+		754855481DAB7CE5004B9BD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754855471DAB7CE5004B9BD3 /* ViewController.swift */; };
+		7548554B1DAB7CE5004B9BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754855491DAB7CE5004B9BD3 /* Main.storyboard */; };
+		7548554D1DAB7CE5004B9BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7548554C1DAB7CE5004B9BD3 /* Assets.xcassets */; };
+		754855501DAB7CE5004B9BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7548554E1DAB7CE5004B9BD3 /* LaunchScreen.storyboard */; };
+		754855581DAB7DBF004B9BD3 /* AudioConverterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754855571DAB7DBF004B9BD3 /* AudioConverterHelper.swift */; };
+		7548555A1DAB7DEB004B9BD3 /* MultipeerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754855591DAB7DEB004B9BD3 /* MultipeerHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		754855421DAB7CE5004B9BD3 /* Multipeer Voice Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multipeer Voice Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		754855451DAB7CE5004B9BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		754855471DAB7CE5004B9BD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7548554A1DAB7CE5004B9BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7548554C1DAB7CE5004B9BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7548554F1DAB7CE5004B9BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		754855511DAB7CE5004B9BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754855571DAB7DBF004B9BD3 /* AudioConverterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioConverterHelper.swift; sourceTree = "<group>"; };
+		754855591DAB7DEB004B9BD3 /* MultipeerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipeerHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7548553F1DAB7CE5004B9BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		754855391DAB7CE5004B9BD3 = {
+			isa = PBXGroup;
+			children = (
+				754855441DAB7CE5004B9BD3 /* Multipeer Voice Chat */,
+				754855431DAB7CE5004B9BD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		754855431DAB7CE5004B9BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				754855421DAB7CE5004B9BD3 /* Multipeer Voice Chat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		754855441DAB7CE5004B9BD3 /* Multipeer Voice Chat */ = {
+			isa = PBXGroup;
+			children = (
+				754855451DAB7CE5004B9BD3 /* AppDelegate.swift */,
+				754855471DAB7CE5004B9BD3 /* ViewController.swift */,
+				754855571DAB7DBF004B9BD3 /* AudioConverterHelper.swift */,
+				754855591DAB7DEB004B9BD3 /* MultipeerHandler.swift */,
+				754855491DAB7CE5004B9BD3 /* Main.storyboard */,
+				7548554C1DAB7CE5004B9BD3 /* Assets.xcassets */,
+				7548554E1DAB7CE5004B9BD3 /* LaunchScreen.storyboard */,
+				754855511DAB7CE5004B9BD3 /* Info.plist */,
+			);
+			path = "Multipeer Voice Chat";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		754855411DAB7CE5004B9BD3 /* Multipeer Voice Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754855541DAB7CE5004B9BD3 /* Build configuration list for PBXNativeTarget "Multipeer Voice Chat" */;
+			buildPhases = (
+				7548553E1DAB7CE5004B9BD3 /* Sources */,
+				7548553F1DAB7CE5004B9BD3 /* Frameworks */,
+				754855401DAB7CE5004B9BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multipeer Voice Chat";
+			productName = "Multipeer Voice Chat";
+			productReference = 754855421DAB7CE5004B9BD3 /* Multipeer Voice Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7548553A1DAB7CE5004B9BD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Oskar Jönsson";
+				TargetAttributes = {
+					754855411DAB7CE5004B9BD3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5LDUUW6F73;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7548553D1DAB7CE5004B9BD3 /* Build configuration list for PBXProject "Multipeer Voice Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 754855391DAB7CE5004B9BD3;
+			productRefGroup = 754855431DAB7CE5004B9BD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				754855411DAB7CE5004B9BD3 /* Multipeer Voice Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		754855401DAB7CE5004B9BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754855501DAB7CE5004B9BD3 /* LaunchScreen.storyboard in Resources */,
+				7548554D1DAB7CE5004B9BD3 /* Assets.xcassets in Resources */,
+				7548554B1DAB7CE5004B9BD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7548553E1DAB7CE5004B9BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754855581DAB7DBF004B9BD3 /* AudioConverterHelper.swift in Sources */,
+				754855481DAB7CE5004B9BD3 /* ViewController.swift in Sources */,
+				7548555A1DAB7DEB004B9BD3 /* MultipeerHandler.swift in Sources */,
+				754855461DAB7CE5004B9BD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		754855491DAB7CE5004B9BD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7548554A1DAB7CE5004B9BD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7548554E1DAB7CE5004B9BD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7548554F1DAB7CE5004B9BD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		754855521DAB7CE5004B9BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		754855531DAB7CE5004B9BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		754855551DAB7CE5004B9BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5LDUUW6F73;
+				INFOPLIST_FILE = "Multipeer Voice Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OSJ.Multipeer-Voice-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		754855561DAB7CE5004B9BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5LDUUW6F73;
+				INFOPLIST_FILE = "Multipeer Voice Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "OSJ.Multipeer-Voice-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7548553D1DAB7CE5004B9BD3 /* Build configuration list for PBXProject "Multipeer Voice Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754855521DAB7CE5004B9BD3 /* Debug */,
+				754855531DAB7CE5004B9BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		754855541DAB7CE5004B9BD3 /* Build configuration list for PBXNativeTarget "Multipeer Voice Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754855551DAB7CE5004B9BD3 /* Debug */,
+				754855561DAB7CE5004B9BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7548553A1DAB7CE5004B9BD3 /* Project object */;
+}
